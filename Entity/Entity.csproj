@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FBD4D88B-3EB1-4CDD-9519-C94AD81DA8E1}</ProjectGuid>
+    <ProjectGuid>{E2FBA346-F7C2-47B5-A430-AC1F321CDDD2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DAL</RootNamespace>
-    <AssemblyName>DAL</AssemblyName>
+    <RootNamespace>Entity</RootNamespace>
+    <AssemblyName>Entity</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,22 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Baglanti.cs" />
-    <Compile Include="GorevliDAL.cs" />
-    <Compile Include="KitapDAL.cs" />
-    <Compile Include="KitapIadeDAL.cs" />
-    <Compile Include="OgrenciDAL.cs" />
+    <Compile Include="AlinanKitapVeri.cs" />
+    <Compile Include="GorevliVeri.cs" />
+    <Compile Include="KitapIadeVeri.cs" />
+    <Compile Include="KitapOgrenciVeri.cs" />
+    <Compile Include="KitapVeri.cs" />
+    <Compile Include="OgrenciVeri.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Entity\Entity.csproj">
-      <Project>{e2fba346-f7c2-47b5-a430-ac1f321cddd2}</Project>
-      <Name>Entity</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

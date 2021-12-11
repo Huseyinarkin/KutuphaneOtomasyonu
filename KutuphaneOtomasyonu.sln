@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KutuphaneOtomasyonu", "KutuphaneOtomasyonu\KutuphaneOtomasyonu.csproj", "{DC06D4D5-2CE1-4022-868F-A04060C62118}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{794F59E1-FB51-4D9A-8597-96150D3CD7E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{E2FBA346-F7C2-47B5-A430-AC1F321CDDD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{FBD4D88B-3EB1-4CDD-9519-C94AD81DA8E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "BL\BL.csproj", "{F858D24E-554F-4797-90FF-F0CDE43D3461}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,18 @@ Global
 		{DC06D4D5-2CE1-4022-868F-A04060C62118}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC06D4D5-2CE1-4022-868F-A04060C62118}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC06D4D5-2CE1-4022-868F-A04060C62118}.Release|Any CPU.Build.0 = Release|Any CPU
-		{794F59E1-FB51-4D9A-8597-96150D3CD7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{794F59E1-FB51-4D9A-8597-96150D3CD7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{794F59E1-FB51-4D9A-8597-96150D3CD7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{794F59E1-FB51-4D9A-8597-96150D3CD7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2FBA346-F7C2-47B5-A430-AC1F321CDDD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2FBA346-F7C2-47B5-A430-AC1F321CDDD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2FBA346-F7C2-47B5-A430-AC1F321CDDD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2FBA346-F7C2-47B5-A430-AC1F321CDDD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD4D88B-3EB1-4CDD-9519-C94AD81DA8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD4D88B-3EB1-4CDD-9519-C94AD81DA8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD4D88B-3EB1-4CDD-9519-C94AD81DA8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD4D88B-3EB1-4CDD-9519-C94AD81DA8E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F858D24E-554F-4797-90FF-F0CDE43D3461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F858D24E-554F-4797-90FF-F0CDE43D3461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F858D24E-554F-4797-90FF-F0CDE43D3461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F858D24E-554F-4797-90FF-F0CDE43D3461}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
