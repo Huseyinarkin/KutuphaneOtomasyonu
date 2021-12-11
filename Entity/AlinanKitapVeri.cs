@@ -9,16 +9,11 @@ namespace Entity
     //Aldığımız kitapların verilerini diğer katmanlarda kullanabilmek için get set işlemi yapıldı
     public class AlinanKitapVeri
     {
-        int ogrenciId;
-        string kitapAd, kitapTeslim;
-        DateTime kitapAlinma;
-        bool kitapKontrol;
-
-        public int OgrenciId { get => ogrenciId; set => ogrenciId = value; }
-        public string KitapAd { get => kitapAd; set => kitapAd = value; }
-        public DateTime KitapAlinma { get => kitapAlinma; set => kitapAlinma = value; }
-        public string KitapTeslim { get => kitapTeslim; set => kitapTeslim = value; }
-        public bool KitapKontrol { get => kitapKontrol; set => kitapKontrol = value; }
+        public int OgrenciId { get; set; }
+        public string KitapAd { get; set; }
+        public DateTime KitapAlinma { get; set; }
+        public string KitapTeslim { get; set; }
+        public bool KitapKontrol { get; set; }
 
     }
 }
