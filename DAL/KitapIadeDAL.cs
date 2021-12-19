@@ -11,11 +11,34 @@ namespace DAL
 {
     public class KitapIadeDAL
     {
+        public static List<KitapOgrenciVeri> KayitKitapOgrenciListe(KitapOgrenciVeri kitap)
+        {
+            OleDbCommand command = new OleDbCommand("Select k.KitapId,k.KitapAd,o.OgrenciAd,o.OgrenciSoyad,kk.KitapAlinma,kk.KitapTeslim,kk.KitapKontrol from ((Kitap k inner join KitapKayit kk on k.KitapId=kk.KitapId) inner join Ogrenci o on o.OgrenciId=kk.OgrenciId) where kk.KitapKontrol = @Kotrol", Baglanti.baglanti);
+            Baglanti.Connection(command);
+            command.Parameters.AddWithValue("@Kontrol", kitap.KitapKontrol);
+            OleDbDataReader read = command.ExecuteReader();
+            List<KitapOgrenciVeri> kitapOgrenci = new List<KitapOgrenciVeri>();
+
+            while (read.Read())
+            {
+                kitapOgrenci.Add(new KitapOgrenciVeri
+                {
+                    KitapId = int.Parse(read["KitapId"].ToString()),
+                    KitapAd = read["KitapAd"].ToString(),                                                           
+                    OgrenciAd = read["OgrenciAd"].ToString(),
+                    OgrenciSoyad = read["OgrenciSoyad"].ToString(),
+                    KitapAlinma = DateTime.Parse(read["KitapAlinma"].ToString()),
+                    KitapTeslim = read["KitapTeslim"].ToString(),
+                    KitapKontrol = bool.Parse(read["KitapKontrol"].ToString())
+                });
+            }
+
+            return kitapOgrenci;
+        }
+
         //Kitabı alanların detaylı listesini inner join yöntemi ile 3 tablodan verilerini çekerek aldık
         public static List<KitapOgrenciVeri> kitapOgrenciListe(KitapOgrenciVeri kitap)
         {
-
-
             OleDbCommand command = new OleDbCommand("Select k.KitapId,o.OgrenciAd,o.OgrenciSoyad,k.KitapAd,kk.KitapAlinma,kk.KitapTeslim,kk.KitapKontrol from ((Kitap k inner join KitapKayit kk on k.KitapId=kk.KitapId) inner join Ogrenci o on o.OgrenciId=kk.OgrenciId) where k.KitapId = @KitapId", Baglanti.baglanti);
             Baglanti.Connection(command);
             command.Parameters.AddWithValue("@KitapId", kitap.KitapId);
@@ -38,7 +61,6 @@ namespace DAL
 
             return kitapOgrenci;
         }
-
 
         //Ogrencinin almış olduğu kitaplar tarihsel olarak listelendi. Yine inner join yöntemi ile veriler çekildi
         public static List<AlinanKitapVeri> ogrenciIdListe(AlinanKitapVeri kitap)
@@ -167,7 +189,6 @@ namespace DAL
             return liste;
         }
 
-
         //Veritabanından öğrenciye ait ceza bilgisi listeye aktarıldı
         public static List<string> OgrenciCeza(KitapIadeVeri kitap)
         {
@@ -198,11 +219,6 @@ namespace DAL
             return command.ExecuteNonQuery();
         }
 
-
-
-
-
-
         //Kitap alındğında veri tabanına veriler eklendi
         public static int kitapAlimIslemi(KitapIadeVeri kitap)
         {
@@ -225,7 +241,6 @@ namespace DAL
             command.Parameters.AddWithValue("@OgrenciId", kitap.OgrenciId);
             return command.ExecuteNonQuery();
         }
-
 
         //Kitap adı sorgusu ile ada ait kitapId verisi int döndürüldü
         public static int kitapId(KitapOgrenciVeri kitap)

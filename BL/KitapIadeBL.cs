@@ -10,6 +10,11 @@ namespace BL
 {
     public class KitapIadeBL
     {
+        // DAL katmanı kullanılarak KitapKontrol parametresine göre veriler listelendi.
+        public static List<KitapOgrenciVeri> KayitKitapOgrenciListe(KitapOgrenciVeri kitap)
+        {
+            return KitapIadeDAL.KayitKitapOgrenciListe(kitap);
+        }
 
         // DAL katmanı kullanılarak kitap id ye ait ogrenci verileri çekildi
         public static List<KitapOgrenciVeri> kitapOgrenciListe(KitapOgrenciVeri kitap)

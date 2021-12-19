@@ -10,9 +10,9 @@ namespace Entity
     public class KitapOgrenciVeri
     {
         public int KitapId { get; set; }
-        public string OgrenciAd { get; set; }
-        public string OgrenciSoyad { get; set; }
         public string KitapAd { get; set; }
+        public string OgrenciAd { get; set; }
+        public string OgrenciSoyad { get; set; }        
         public DateTime KitapAlinma { get; set; }
         public string KitapTeslim { get; set; }
         public bool KitapKontrol { get; set; }

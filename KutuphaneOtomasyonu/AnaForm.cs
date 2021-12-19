@@ -45,6 +45,7 @@ namespace KutuphaneOtomasyonu
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //butona tikladığımızda panel2 ye göstermek istediğimiz form penceresini getiriyoruz.
             panel4.Controls.Clear();
             OgrIslem c1 = new OgrIslem();
             c1.Dock = DockStyle.Fill;
@@ -59,6 +60,7 @@ namespace KutuphaneOtomasyonu
 
         private void button3_Click(object sender, EventArgs e)
         {
+            //butona tikladığımızda panel2 ye göstermek istediğimiz form penceresini getiriyoruz.
             panel4.Controls.Clear();
             KtpIslem c1 = new KtpIslem();
             c1.Dock = DockStyle.Fill;
@@ -73,8 +75,9 @@ namespace KutuphaneOtomasyonu
 
         private void button4_Click(object sender, EventArgs e)
         {
+            //butona tikladığımızda panel2 ye göstermek istediğimiz form penceresini getiriyoruz.
             panel4.Controls.Clear();
-            KtpIslem c1 = new KtpIslem();
+            VerilenKitaplar c1 = new VerilenKitaplar();
             c1.Dock = DockStyle.Fill;
             c1.TopLevel = false;
             c1.FormBorderStyle = FormBorderStyle.None;
@@ -83,6 +86,29 @@ namespace KutuphaneOtomasyonu
 
             //Hangi butona basılı olduğunu belirlemek için panel5 in Lokasyonunu butonun sağ kenarına ayarlıyorum.
             panel5.Location = new Point((sender as Button).Location.X + 180, (sender as Button).Location.Y);
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            //butona tikladığımızda panel2 ye göstermek istediğimiz form penceresini getiriyoruz.
+            panel4.Controls.Clear();
+            DonenKitaplar c1 = new DonenKitaplar();
+            c1.Dock = DockStyle.Fill;
+            c1.TopLevel = false;
+            c1.FormBorderStyle = FormBorderStyle.None;
+            panel4.Controls.Add(c1);
+            c1.Show();
+
+            //Hangi butona basılı olduğunu belirlemek için panel5 in Lokasyonunu butonun sağ kenarına ayarlıyorum.
+            panel5.Location = new Point((sender as Button).Location.X + 180, (sender as Button).Location.Y);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            GirisMainForm gorevliGiris = new GirisMainForm(); //Nesne oluşturuldu
+            this.Hide();                                     //aktif form kapatıldı
+            gorevliGiris.Show();                            // oluşturulan nesneden yeni form açıldı
         }
     }
 }

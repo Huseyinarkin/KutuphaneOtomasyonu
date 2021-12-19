@@ -22,8 +22,7 @@ namespace KutuphaneOtomasyonu
         int id;  //Global Id tanımlandı
         private void KtpIslem_Load(object sender, EventArgs e)
         {
-            kitapListe.DataSource = KitapBL.kitapListe(); // Form açıldığında datagrid üzerine veritabanındaki listeyi aktardık
-            //lblBilgi.ForeColor = Color.Yellow;  // Listede bilgi listesi aktif olduğu için text rengini form açılınca değiştridik
+            kitapListe.DataSource = KitapBL.kitapListe(); // Form açıldığında datagrid üzerine veritabanındaki listeyi aktardık            
             // Form açıldığında guncelleme kısmındaki textboxların ve gunceleme için gerekli id nin boş kalmasını  sağladık.
             txt_gAd.Text = "";
             comboBox_gTur.Text = null;
