@@ -26,14 +26,6 @@ namespace KutuphaneOtomasyonu
                 KitapKontrol = true
             };
             kitapListe.DataSource = KitapIadeBL.KayitKitapOgrenciListe(kitap);
-
-
-
-            KitapIadeVeri iade = new KitapIadeVeri()  // nesne oluşturuldu
-            {
-                OgrenciId = 1  // id ataması yapıldı
-            };
-            comboBoxTeslim.DataSource = KitapIadeBL.kitapTeslimLİste(iade);
         }
     }
 }

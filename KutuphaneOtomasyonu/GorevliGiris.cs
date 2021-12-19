@@ -50,9 +50,8 @@ namespace KutuphaneOtomasyonu
                 {
                     MessageBox.Show("Giriş başarılı");
                     AnaForm gorevliGecis = new AnaForm(); // Gorevli geçiş formundan nesne üretildi
-                    //this.Hide();
-                    formHid.Hide();// Bulunduğumuz fonksiyon kapatıldı
-                    gorevliGecis.Show();                                  // Oluşturulan nesnenin formu açıldı
+                    formHid.Hide();                     // Bulunduğumuz fonksiyon kapatıldı
+                    gorevliGecis.Show();               // Oluşturulan nesnenin formu açıldı
                 }
 
                 else

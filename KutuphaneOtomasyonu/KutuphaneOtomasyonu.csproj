@@ -76,6 +76,18 @@
     <Compile Include="KtpIslem.Designer.cs">
       <DependentUpon>KtpIslem.cs</DependentUpon>
     </Compile>
+    <Compile Include="OgrAnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrAnaForm.Designer.cs">
+      <DependentUpon>OgrAnaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrBilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrBilgileri.Designer.cs">
+      <DependentUpon>OgrBilgileri.cs</DependentUpon>
+    </Compile>
     <Compile Include="OgrGiris.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +122,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KtpIslem.resx">
       <DependentUpon>KtpIslem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrAnaForm.resx">
+      <DependentUpon>OgrAnaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrBilgileri.resx">
+      <DependentUpon>OgrBilgileri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OgrGiris.resx">
       <DependentUpon>OgrGiris.cs</DependentUpon>

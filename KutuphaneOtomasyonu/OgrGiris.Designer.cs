@@ -82,6 +82,7 @@ namespace KutuphaneOtomasyonu
             this.txtOgrSifre.Size = new System.Drawing.Size(190, 26);
             this.txtOgrSifre.TabIndex = 4;
             this.txtOgrSifre.Text = "1234";
+            this.txtOgrSifre.UseSystemPasswordChar = true;
             // 
             // label2
             // 
@@ -141,6 +142,7 @@ namespace KutuphaneOtomasyonu
             this.button6.Text = "Giris";
             this.button6.UseMnemonic = false;
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // OgrGiris
             // 

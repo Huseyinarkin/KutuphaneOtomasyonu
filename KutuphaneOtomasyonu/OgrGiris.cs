@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Entity;  // Entity katmanını kullanacağımız için ekledik.
+using BL;     // BL katmanını kullanacağımız için ekledik.
 
 namespace KutuphaneOtomasyonu
 {
@@ -33,5 +35,41 @@ namespace KutuphaneOtomasyonu
                 checkBox1.Text = "Göster";                 // CheckBox textini goster olarak değiştir
             }
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (txtOgrNo.Text != "" && txtOgrSifre.Text != "") //Textlerin boş bırakılmaması kontrol edildi
+            {
+                OgrenciVeri ogrenci = new OgrenciVeri()       //Entity katmanındaki verilere girilen değerler aktarıldı
+                {
+                    OgrenciNo = txtOgrNo.Text,
+                    OgrenciSifre = txtOgrSifre.Text
+
+                };
+
+                if (OgrenciBL.ogrenciKontrol_BL(ogrenci) == true) // Veritabanındaki tabloda girilen değerlere ait öğrenci var mı kontrol edildi
+                {
+                    int ogrid = OgrenciBL.ogrenciIdSorgu(ogrenci); //id ataması yapıldı
+                    MessageBox.Show("Giriş Başarlı");
+                    OgrAnaForm ogr = new OgrAnaForm(ogrid);
+                    formHid.Hide();              // Bulunduğumuz fonksiyon kapatıldı                      
+                    ogr.Show();                 // Oluşturulan nesne ile geçiş yapılacak form ekranı açıldı
+
+
+                }
+                else
+                    MessageBox.Show("Hatalı giriş !");
+
+            }
+
+            else
+            {
+                MessageBox.Show("Gerekli alanları doldurunuz!");
+            }
+
+
+
+        }
+
     }
 }
