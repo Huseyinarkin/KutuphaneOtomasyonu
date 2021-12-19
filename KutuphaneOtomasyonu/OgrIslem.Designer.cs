@@ -231,6 +231,7 @@ namespace KutuphaneOtomasyonu
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(63)))), ((int)(((byte)(159)))));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
@@ -242,10 +243,11 @@ namespace KutuphaneOtomasyonu
             // label7
             // 
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(74)))), ((int)(((byte)(25)))));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(12, 273);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(120, 25);
+            this.label7.Size = new System.Drawing.Size(140, 25);
             this.label7.TabIndex = 25;
             this.label7.Text = "Öğrenci Güncelleme";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -401,6 +403,7 @@ namespace KutuphaneOtomasyonu
             // label14
             // 
             this.label14.BackColor = System.Drawing.Color.Maroon;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label14.ForeColor = System.Drawing.Color.White;
             this.label14.Location = new System.Drawing.Point(293, 9);
             this.label14.Name = "label14";
@@ -457,6 +460,7 @@ namespace KutuphaneOtomasyonu
             // label16
             // 
             this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label16.ForeColor = System.Drawing.Color.White;
             this.label16.Location = new System.Drawing.Point(290, 161);
             this.label16.Name = "label16";

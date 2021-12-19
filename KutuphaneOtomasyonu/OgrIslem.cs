@@ -168,7 +168,7 @@ namespace KutuphaneOtomasyonu
 
         private void textInt_KeyPress(object sender, KeyPressEventArgs e)
         {
-            //textboxuna harf girisini engelleme
+            //textbox'a harf girisini engelliyorum
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
             {
                 e.Handled = true;

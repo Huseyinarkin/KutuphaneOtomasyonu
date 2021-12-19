@@ -31,6 +31,7 @@ namespace KutuphaneOtomasyonu
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnaForm));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -44,7 +45,7 @@ namespace KutuphaneOtomasyonu
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -54,7 +55,6 @@ namespace KutuphaneOtomasyonu
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
@@ -65,6 +65,13 @@ namespace KutuphaneOtomasyonu
             this.panel1.Size = new System.Drawing.Size(1100, 60);
             this.panel1.TabIndex = 1;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            // 
+            // panel4
+            // 
+            this.panel4.Location = new System.Drawing.Point(200, 60);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(900, 600);
+            this.panel4.TabIndex = 3;
             // 
             // panel3
             // 
@@ -134,6 +141,7 @@ namespace KutuphaneOtomasyonu
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(37)))), ((int)(((byte)(40)))));
+            this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.button6);
             this.panel2.Controls.Add(this.button5);
             this.panel2.Controls.Add(this.button4);
@@ -211,6 +219,7 @@ namespace KutuphaneOtomasyonu
             this.button4.Text = "Issued Books";
             this.button4.UseMnemonic = false;
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -233,6 +242,7 @@ namespace KutuphaneOtomasyonu
             this.button3.Text = "Books";
             this.button3.UseMnemonic = false;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -279,12 +289,13 @@ namespace KutuphaneOtomasyonu
             this.button1.UseMnemonic = false;
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // panel4
+            // panel5
             // 
-            this.panel4.Location = new System.Drawing.Point(200, 60);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(900, 600);
-            this.panel4.TabIndex = 3;
+            this.panel5.BackColor = System.Drawing.Color.Black;
+            this.panel5.Location = new System.Drawing.Point(180, 220);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(20, 40);
+            this.panel5.TabIndex = 4;
             // 
             // AnaForm
             // 
@@ -299,7 +310,6 @@ namespace KutuphaneOtomasyonu
             this.Name = "AnaForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.AnaForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -326,6 +336,7 @@ namespace KutuphaneOtomasyonu
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
     }
 }
 

@@ -52,11 +52,37 @@ namespace KutuphaneOtomasyonu
             c1.FormBorderStyle = FormBorderStyle.None;
             panel4.Controls.Add(c1);
             c1.Show();
+
+            //Hangi butona basılı olduğunu belirlemek için panel5 in Lokasyonunu butonun sağ kenarına ayarlıyorum.
+            panel5.Location= new Point((sender as Button).Location.X + 180, (sender as Button).Location.Y);
         }
 
-        private void AnaForm_Load(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            
+            panel4.Controls.Clear();
+            KtpIslem c1 = new KtpIslem();
+            c1.Dock = DockStyle.Fill;
+            c1.TopLevel = false;
+            c1.FormBorderStyle = FormBorderStyle.None;
+            panel4.Controls.Add(c1);
+            c1.Show();
+
+            //Hangi butona basılı olduğunu belirlemek için panel5 in Lokasyonunu butonun sağ kenarına ayarlıyorum.
+            panel5.Location = new Point((sender as Button).Location.X+180, (sender as Button).Location.Y);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            panel4.Controls.Clear();
+            KtpIslem c1 = new KtpIslem();
+            c1.Dock = DockStyle.Fill;
+            c1.TopLevel = false;
+            c1.FormBorderStyle = FormBorderStyle.None;
+            panel4.Controls.Add(c1);
+            c1.Show();
+
+            //Hangi butona basılı olduğunu belirlemek için panel5 in Lokasyonunu butonun sağ kenarına ayarlıyorum.
+            panel5.Location = new Point((sender as Button).Location.X + 180, (sender as Button).Location.Y);
         }
     }
 }
