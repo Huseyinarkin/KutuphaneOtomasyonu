@@ -44,6 +44,7 @@ namespace KutuphaneOtomasyonu
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -53,6 +54,7 @@ namespace KutuphaneOtomasyonu
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
@@ -117,6 +119,7 @@ namespace KutuphaneOtomasyonu
             this.buttonClose.Size = new System.Drawing.Size(37, 37);
             this.buttonClose.TabIndex = 3;
             this.buttonClose.UseVisualStyleBackColor = false;
+            this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
             // pictureBox1
             // 
@@ -252,6 +255,7 @@ namespace KutuphaneOtomasyonu
             this.button2.Text = "Students";
             this.button2.UseMnemonic = false;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -275,6 +279,13 @@ namespace KutuphaneOtomasyonu
             this.button1.UseMnemonic = false;
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // panel4
+            // 
+            this.panel4.Location = new System.Drawing.Point(200, 60);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(900, 600);
+            this.panel4.TabIndex = 3;
+            // 
             // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -283,10 +294,12 @@ namespace KutuphaneOtomasyonu
             this.ClientSize = new System.Drawing.Size(1100, 660);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AnaForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.AnaForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -312,6 +325,7 @@ namespace KutuphaneOtomasyonu
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
     }
 }
 
