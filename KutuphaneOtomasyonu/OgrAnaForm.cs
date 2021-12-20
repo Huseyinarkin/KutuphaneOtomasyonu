@@ -98,6 +98,11 @@ namespace KutuphaneOtomasyonu
             //ekranGetir fonksiyonu ile panel4 un icerisine istediğim formu getiriyorum.
             ekranGetir(new OgrGrafik(OgrID), sender);
         }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //ekranGetir fonksiyonu ile panel4 un icerisine istediğim formu getiriyorum.
+            ekranGetir(new KitapDetay(OgrID), sender);
+        }
         private void ekranGetir(Form c1,object sender)
         {
             //butona tikladığımızda panel2 ye göstermek istediğimiz form penceresini getiriyoruz.
@@ -111,7 +116,6 @@ namespace KutuphaneOtomasyonu
             //Hangi butona basılı olduğunu belirlemek için panel5 in Lokasyonunu butonun sağ kenarına ayarlıyorum.
             panel5.Location = new Point((sender as Button).Location.X + 180, (sender as Button).Location.Y);
         }
-
 
     }
 }

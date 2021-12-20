@@ -79,6 +79,12 @@
     <Compile Include="GorevliGiris.Designer.cs">
       <DependentUpon>GorevliGiris.cs</DependentUpon>
     </Compile>
+    <Compile Include="KitapDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapDetay.Designer.cs">
+      <DependentUpon>KitapDetay.cs</DependentUpon>
+    </Compile>
     <Compile Include="KtpIslem.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GorevliGiris.resx">
       <DependentUpon>GorevliGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapDetay.resx">
+      <DependentUpon>KitapDetay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KtpIslem.resx">
       <DependentUpon>KtpIslem.cs</DependentUpon>
