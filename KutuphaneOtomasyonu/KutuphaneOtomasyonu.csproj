@@ -44,6 +44,9 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph, Version=5.1.7.430, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZedGraph.5.1.7\lib\net35-Client\ZedGraph.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnaForm.cs">
@@ -100,6 +103,12 @@
     <Compile Include="OgrGiris.Designer.cs">
       <DependentUpon>OgrGiris.cs</DependentUpon>
     </Compile>
+    <Compile Include="OgrGrafik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrGrafik.Designer.cs">
+      <DependentUpon>OgrGrafik.cs</DependentUpon>
+    </Compile>
     <Compile Include="OgrIslem.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -147,6 +156,9 @@
     <EmbeddedResource Include="OgrGiris.resx">
       <DependentUpon>OgrGiris.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OgrGrafik.resx">
+      <DependentUpon>OgrGrafik.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OgrIslem.resx">
       <DependentUpon>OgrIslem.cs</DependentUpon>
     </EmbeddedResource>
@@ -189,6 +201,9 @@
       <Project>{e2fba346-f7c2-47b5-a430-ac1f321cddd2}</Project>
       <Name>Entity</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="License-LGPL.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
