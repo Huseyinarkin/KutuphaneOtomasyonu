@@ -11,6 +11,20 @@ namespace DAL
 {
     public class OgrenciDAL
     {
+        //Tüm öğrencilerin sayısı int olarak döndürüldü
+        public static int totalOgr()
+        {
+            OleDbCommand command = new OleDbCommand("Select * from Ogrenci", Baglanti.baglanti);
+            Baglanti.Connection(command);
+            OleDbDataReader read = command.ExecuteReader();
+            int sayac = 0;
+            while (read.Read())
+            {
+                sayac++;
+            }
+
+            return sayac;
+        }
         //Öğrencinin tabloda kayıtlı olma durumu kontrol edildi
         public static bool ogrenciKontrol(OgrenciVeri ogr)
         {

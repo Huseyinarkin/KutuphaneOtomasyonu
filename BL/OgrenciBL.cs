@@ -10,6 +10,11 @@ namespace BL
 {
     public class OgrenciBL
     {
+        // Tüm kitapların sayisi DAL katmanı kullanılarak int döndürüldü
+        public static int totalOgr()
+        {
+            return OgrenciDAL.totalOgr();
+        }
         public static bool ogrenciKontrol_BL(OgrenciVeri ogrenci)
         {
             if (ogrenci.OgrenciNo != "" && ogrenci.OgrenciSifre != "") // Gelen verilerin boş olmadığı kontrol edildi

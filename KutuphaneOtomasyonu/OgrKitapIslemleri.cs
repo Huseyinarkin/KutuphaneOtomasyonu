@@ -109,7 +109,7 @@ namespace KutuphaneOtomasyonu
                 MessageBox.Show("Alınabilir kitap mevcut değil.");
             }
         }
-
+        
         private void btnTeslim_Click(object sender, EventArgs e)
         {
             if (comboBoxTeslim.Text != "")  // text doluluğu kontrol edildi
@@ -176,14 +176,14 @@ namespace KutuphaneOtomasyonu
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnListele_Click(object sender, EventArgs e)
         {
             AlinanKitapVeri alinanKitapVeri = new AlinanKitapVeri()  // nesne oluşturuldu
             {
                 OgrenciId = OgrID  //id ataması yapıldı
             };
             kitapAlimTeslimListe.DataSource = KitapIadeBL.ogrenciIdListe(alinanKitapVeri); // Form açıldığında datagrid üzerine veritabanındaki listeyi aktardık
-            
+
             listeRenklendirme();  // Tablodaki satırları renklendirme fonksiyounu çağrıldı
         }
 
@@ -195,6 +195,7 @@ namespace KutuphaneOtomasyonu
             };
             comboBoxAlinan.DataSource = KitapIadeBL.kitapAlinanLİste(iade); //Combobox a alinabilicek kitaplar aktarıldı
             comboBoxTeslim.DataSource = KitapIadeBL.kitapTeslimLİste(iade); // Combobox ateslim edilecek kitaplar aktarıldı
+
         }
     }
 }

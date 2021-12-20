@@ -32,10 +32,10 @@ namespace KutuphaneOtomasyonu
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KitapDetay));
             this.label16 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.idKitapListe = new System.Windows.Forms.DataGridView();
             this.label9 = new System.Windows.Forms.Label();
             this.btnGetir = new System.Windows.Forms.Button();
             this.kitapId = new System.Windows.Forms.TextBox();
+            this.idKitapListe = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblSifre = new System.Windows.Forms.Label();
@@ -80,24 +80,6 @@ namespace KutuphaneOtomasyonu
             this.panel4.Size = new System.Drawing.Size(257, 501);
             this.panel4.TabIndex = 46;
             // 
-            // idKitapListe
-            // 
-            this.idKitapListe.AllowUserToAddRows = false;
-            this.idKitapListe.AllowUserToDeleteRows = false;
-            this.idKitapListe.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.idKitapListe.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.idKitapListe.BackgroundColor = System.Drawing.Color.White;
-            this.idKitapListe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.idKitapListe.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.idKitapListe.Location = new System.Drawing.Point(12, 100);
-            this.idKitapListe.Margin = new System.Windows.Forms.Padding(2);
-            this.idKitapListe.Name = "idKitapListe";
-            this.idKitapListe.ReadOnly = true;
-            this.idKitapListe.RowHeadersWidth = 51;
-            this.idKitapListe.RowTemplate.Height = 24;
-            this.idKitapListe.Size = new System.Drawing.Size(234, 380);
-            this.idKitapListe.TabIndex = 46;
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -134,6 +116,24 @@ namespace KutuphaneOtomasyonu
             this.kitapId.Size = new System.Drawing.Size(76, 20);
             this.kitapId.TabIndex = 49;
             this.kitapId.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.kitapId_KeyPress);
+            // 
+            // idKitapListe
+            // 
+            this.idKitapListe.AllowUserToAddRows = false;
+            this.idKitapListe.AllowUserToDeleteRows = false;
+            this.idKitapListe.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.idKitapListe.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.idKitapListe.BackgroundColor = System.Drawing.Color.White;
+            this.idKitapListe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.idKitapListe.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.idKitapListe.Location = new System.Drawing.Point(12, 100);
+            this.idKitapListe.Margin = new System.Windows.Forms.Padding(2);
+            this.idKitapListe.Name = "idKitapListe";
+            this.idKitapListe.ReadOnly = true;
+            this.idKitapListe.RowHeadersWidth = 51;
+            this.idKitapListe.RowTemplate.Height = 24;
+            this.idKitapListe.Size = new System.Drawing.Size(234, 380);
+            this.idKitapListe.TabIndex = 46;
             // 
             // label1
             // 

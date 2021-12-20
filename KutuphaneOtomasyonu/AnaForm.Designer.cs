@@ -203,7 +203,7 @@ namespace KutuphaneOtomasyonu
             this.button5.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.button5.Size = new System.Drawing.Size(200, 40);
             this.button5.TabIndex = 5;
-            this.button5.Text = "Return Books";
+            this.button5.Text = "Dönen Kitaplar";
             this.button5.UseMnemonic = false;
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -226,7 +226,7 @@ namespace KutuphaneOtomasyonu
             this.button4.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.button4.Size = new System.Drawing.Size(200, 40);
             this.button4.TabIndex = 4;
-            this.button4.Text = "Issued Books";
+            this.button4.Text = "Verilen Kitaplar";
             this.button4.UseMnemonic = false;
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -249,7 +249,7 @@ namespace KutuphaneOtomasyonu
             this.button3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.button3.Size = new System.Drawing.Size(200, 40);
             this.button3.TabIndex = 3;
-            this.button3.Text = "Books";
+            this.button3.Text = "Kitaplar";
             this.button3.UseMnemonic = false;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -272,7 +272,7 @@ namespace KutuphaneOtomasyonu
             this.button2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.button2.Size = new System.Drawing.Size(200, 40);
             this.button2.TabIndex = 2;
-            this.button2.Text = "Students";
+            this.button2.Text = "Öğrenciler";
             this.button2.UseMnemonic = false;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -295,9 +295,10 @@ namespace KutuphaneOtomasyonu
             this.button1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.button1.Size = new System.Drawing.Size(200, 40);
             this.button1.TabIndex = 1;
-            this.button1.Text = "Dashboard";
+            this.button1.Text = "Gösterge Paneli";
             this.button1.UseMnemonic = false;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // AnaForm
             // 
@@ -312,6 +313,7 @@ namespace KutuphaneOtomasyonu
             this.Name = "AnaForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.AnaForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

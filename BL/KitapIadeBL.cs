@@ -103,7 +103,6 @@ namespace BL
 
             return KitapIadeDAL.ogrenciIdListe(kitap);
         }
-
         //Kİtap alma işlemi DAL katmanı kullanılarak gerçekleştirildi
         public static int kitapAlimIslemi(KitapIadeVeri kitap)
         {

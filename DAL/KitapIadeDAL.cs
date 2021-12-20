@@ -11,6 +11,7 @@ namespace DAL
 {
     public class KitapIadeDAL
     {
+        //Kitabin iade edilip edilmediği kontrol edilerek istenilen formattıki veriler veritabanından çekildi
         public static List<KitapOgrenciVeri> KayitKitapOgrenciListe(KitapOgrenciVeri kitap)
         {
             OleDbCommand command = new OleDbCommand("Select k.KitapId,k.KitapAd,o.OgrenciAd,o.OgrenciSoyad,kk.KitapAlinma,kk.KitapTeslim,kk.KitapKontrol from ((Kitap k inner join KitapKayit kk on k.KitapId=kk.KitapId) inner join Ogrenci o on o.OgrenciId=kk.OgrenciId) where kk.KitapKontrol = @Kotrol", Baglanti.baglanti);

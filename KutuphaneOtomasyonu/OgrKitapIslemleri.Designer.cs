@@ -32,7 +32,7 @@ namespace KutuphaneOtomasyonu
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OgrKitapIslemleri));
             this.label16 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnListele = new System.Windows.Forms.Button();
             this.kitapAlimTeslimListe = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -69,23 +69,23 @@ namespace KutuphaneOtomasyonu
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.panel4.Controls.Add(this.button1);
+            this.panel4.Controls.Add(this.btnListele);
             this.panel4.Controls.Add(this.kitapAlimTeslimListe);
             this.panel4.Location = new System.Drawing.Point(147, 54);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(627, 303);
             this.panel4.TabIndex = 44;
             // 
-            // button1
+            // btnListele
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(19, 263);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(163, 33);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Listele";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnListele.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnListele.Location = new System.Drawing.Point(19, 263);
+            this.btnListele.Name = "btnListele";
+            this.btnListele.Size = new System.Drawing.Size(163, 33);
+            this.btnListele.TabIndex = 4;
+            this.btnListele.Text = "Listele";
+            this.btnListele.UseVisualStyleBackColor = true;
+            this.btnListele.Click += new System.EventHandler(this.btnListele_Click);
             // 
             // kitapAlimTeslimListe
             // 
@@ -317,6 +317,6 @@ namespace KutuphaneOtomasyonu
         private System.Windows.Forms.ComboBox comboBoxTeslim;
         private System.Windows.Forms.Button btnTeslim;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnListele;
     }
 }
