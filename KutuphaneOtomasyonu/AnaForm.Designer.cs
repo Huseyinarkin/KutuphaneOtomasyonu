@@ -80,9 +80,9 @@ namespace KutuphaneOtomasyonu
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(64, 7);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(133, 25);
+            this.label2.Size = new System.Drawing.Size(136, 25);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Name Of User";
+            this.label2.Text = "Cüneyt ARKIN";
             // 
             // label1
             // 
