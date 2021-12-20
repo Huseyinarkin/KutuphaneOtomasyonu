@@ -16,7 +16,8 @@ namespace KutuphaneOtomasyonu
     {
         public OgrAnaForm(int oid)
         {
-            InitializeComponent();
+            //Giris Yapan Ogrencinin id sini aliyoruz.
+            InitializeComponent();            
             OgrID = oid;
         }
         //Ogrenci ID yi kullanmak için global olarak tanımladım.
@@ -74,5 +75,37 @@ namespace KutuphaneOtomasyonu
             this.Hide();                                     //aktif form kapatıldı
             gorevliGiris.Show();                            // oluşturulan nesneden yeni form açıldı
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //ekranGetir fonksiyonu ile panel4 un icerisine istediğim formu getiriyorum.
+            ekranGetir(new OgrKitapIslemleri(OgrID), sender);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //ekranGetir fonksiyonu ile panel4 un icerisine istediğim formu getiriyorum.
+            ekranGetir(new OgrBilgileri(OgrID), sender);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //ekranGetir fonksiyonu ile panel4 un icerisine istediğim formu getiriyorum.
+            ekranGetir(new BorcOde(OgrID), sender);
+        }
+        private void ekranGetir(Form c1,object sender)
+        {
+            //butona tikladığımızda panel2 ye göstermek istediğimiz form penceresini getiriyoruz.
+            panel4.Controls.Clear();            
+            c1.Dock = DockStyle.Fill;
+            c1.TopLevel = false;
+            c1.FormBorderStyle = FormBorderStyle.None;
+            panel4.Controls.Add(c1);
+            c1.Show();
+
+            //Hangi butona basılı olduğunu belirlemek için panel5 in Lokasyonunu butonun sağ kenarına ayarlıyorum.
+            panel5.Location = new Point((sender as Button).Location.X + 180, (sender as Button).Location.Y);
+        }
+            
     }
 }

@@ -203,7 +203,7 @@ namespace KutuphaneOtomasyonu
             this.button5.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.button5.Size = new System.Drawing.Size(200, 40);
             this.button5.TabIndex = 5;
-            this.button5.Text = "Return Books";
+            this.button5.Text = "Grafik";
             this.button5.UseMnemonic = false;
             this.button5.UseVisualStyleBackColor = false;
             // 
@@ -225,7 +225,7 @@ namespace KutuphaneOtomasyonu
             this.button4.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.button4.Size = new System.Drawing.Size(200, 40);
             this.button4.TabIndex = 4;
-            this.button4.Text = "Issued Books";
+            this.button4.Text = "Kitap Ara";
             this.button4.UseMnemonic = false;
             this.button4.UseVisualStyleBackColor = false;
             // 
@@ -247,9 +247,10 @@ namespace KutuphaneOtomasyonu
             this.button3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.button3.Size = new System.Drawing.Size(200, 40);
             this.button3.TabIndex = 3;
-            this.button3.Text = "Books";
+            this.button3.Text = "Kitap Alım, Teslim";
             this.button3.UseMnemonic = false;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -269,9 +270,10 @@ namespace KutuphaneOtomasyonu
             this.button2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.button2.Size = new System.Drawing.Size(200, 40);
             this.button2.TabIndex = 2;
-            this.button2.Text = "Students";
+            this.button2.Text = "Borç Öde";
             this.button2.UseMnemonic = false;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -294,6 +296,7 @@ namespace KutuphaneOtomasyonu
             this.button1.Text = "Kişisel Bilgiler";
             this.button1.UseMnemonic = false;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // OgrAnaForm
             // 
