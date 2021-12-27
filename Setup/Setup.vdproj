@@ -15,20 +15,26 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_1D1A35741AA01FD9B745265D2EF647B2"
+        "MsmKey" = "8:_2CE4617CBAB14180BFAD88B37631CFCB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6343F6B5E51406BCA0FF87B1FA1BD55B"
+        "OwnerKey" = "8:_B5D39F5345921FD4935A4B8F3594E399"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6343F6B5E51406BCA0FF87B1FA1BD55B"
         "OwnerKey" = "8:_904205E5E6744762B83C37ABB0720AF6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_4F1EDE54DDCA6833814DD34E31149D3A"
-        "OwnerKey" = "8:_EC7895F4A2D830FFE8B710F1A3C9D00F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4F1EDE54DDCA6833814DD34E31149D3A"
-        "OwnerKey" = "8:_904205E5E6744762B83C37ABB0720AF6"
+        "MsmKey" = "8:_6343F6B5E51406BCA0FF87B1FA1BD55B"
+        "OwnerKey" = "8:_9E5A5EFFB29E06C9812513F5EFDE874C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -39,32 +45,32 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_8AB6065271D1017C25EB32ECBC8A866A"
+        "OwnerKey" = "8:_904205E5E6744762B83C37ABB0720AF6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_904205E5E6744762B83C37ABB0720AF6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_AA08DCC0F0D87A9B24D3EDE34012A2E9"
-        "OwnerKey" = "8:_4F1EDE54DDCA6833814DD34E31149D3A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_AA08DCC0F0D87A9B24D3EDE34012A2E9"
+        "MsmKey" = "8:_9E5A5EFFB29E06C9812513F5EFDE874C"
         "OwnerKey" = "8:_904205E5E6744762B83C37ABB0720AF6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_AA08DCC0F0D87A9B24D3EDE34012A2E9"
-        "OwnerKey" = "8:_EC7895F4A2D830FFE8B710F1A3C9D00F"
+        "MsmKey" = "8:_B5D39F5345921FD4935A4B8F3594E399"
+        "OwnerKey" = "8:_9E5A5EFFB29E06C9812513F5EFDE874C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_D69BA44E19D14AED9CE9C9DBA898D28A"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_B5D39F5345921FD4935A4B8F3594E399"
+        "OwnerKey" = "8:_904205E5E6744762B83C37ABB0720AF6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -75,12 +81,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_EC7895F4A2D830FFE8B710F1A3C9D00F"
-        "OwnerKey" = "8:_904205E5E6744762B83C37ABB0720AF6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_904205E5E6744762B83C37ABB0720AF6"
         "MsmSig" = "8:_UNDEFINED"
@@ -88,25 +88,25 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_1D1A35741AA01FD9B745265D2EF647B2"
+        "OwnerKey" = "8:_8AB6065271D1017C25EB32ECBC8A866A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EC7895F4A2D830FFE8B710F1A3C9D00F"
+        "OwnerKey" = "8:_9E5A5EFFB29E06C9812513F5EFDE874C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4F1EDE54DDCA6833814DD34E31149D3A"
+        "OwnerKey" = "8:_B5D39F5345921FD4935A4B8F3594E399"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_AA08DCC0F0D87A9B24D3EDE34012A2E9"
+        "OwnerKey" = "8:_6343F6B5E51406BCA0FF87B1FA1BD55B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -210,21 +210,10 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1D1A35741AA01FD9B745265D2EF647B2"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2CE4617CBAB14180BFAD88B37631CFCB"
             {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ZedGraph, Version=5.1.7.430, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_1D1A35741AA01FD9B745265D2EF647B2"
-                    {
-                    "Name" = "8:ZedGraph.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:ZedGraph.dll"
-            "TargetName" = "8:"
+            "SourcePath" = "8:..\\KutuphaneOtomasyonu\\bin\\Debug\\libraryc.ico"
+            "TargetName" = "8:libraryc.ico"
             "Tag" = "8:"
             "Folder" = "8:_D134435913EE4AAEA35A902A4C096143"
             "Condition" = "8:"
@@ -238,23 +227,23 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4F1EDE54DDCA6833814DD34E31149D3A"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6343F6B5E51406BCA0FF87B1FA1BD55B"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:DAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Entity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_4F1EDE54DDCA6833814DD34E31149D3A"
+                    "_6343F6B5E51406BCA0FF87B1FA1BD55B"
                     {
-                    "Name" = "8:DAL.dll"
+                    "Name" = "8:Entity.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:DAL.dll"
+            "SourcePath" = "8:Entity.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_D134435913EE4AAEA35A902A4C096143"
@@ -292,20 +281,20 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AA08DCC0F0D87A9B24D3EDE34012A2E9"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8AB6065271D1017C25EB32ECBC8A866A"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Entity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:ZedGraph, Version=5.1.7.430, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_AA08DCC0F0D87A9B24D3EDE34012A2E9"
+                    "_8AB6065271D1017C25EB32ECBC8A866A"
                     {
-                    "Name" = "8:Entity.dll"
+                    "Name" = "8:ZedGraph.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Entity.dll"
+            "SourcePath" = "8:ZedGraph.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_D134435913EE4AAEA35A902A4C096143"
@@ -323,10 +312,21 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D69BA44E19D14AED9CE9C9DBA898D28A"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9E5A5EFFB29E06C9812513F5EFDE874C"
             {
-            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\libraryc.ico"
-            "TargetName" = "8:libraryc.ico"
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:BL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_9E5A5EFFB29E06C9812513F5EFDE874C"
+                    {
+                    "Name" = "8:BL.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:BL.dll"
+            "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_D134435913EE4AAEA35A902A4C096143"
             "Condition" = "8:"
@@ -340,7 +340,38 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B5D39F5345921FD4935A4B8F3594E399"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:DAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_B5D39F5345921FD4935A4B8F3594E399"
+                    {
+                    "Name" = "8:DAL.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:DAL.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_D134435913EE4AAEA35A902A4C096143"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_DF63CD7284CABD43147D7D177BC6AA43"
@@ -357,37 +388,6 @@
                     }
                 }
             "SourcePath" = "8:System.Net.Http.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_D134435913EE4AAEA35A902A4C096143"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EC7895F4A2D830FFE8B710F1A3C9D00F"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:BL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_EC7895F4A2D830FFE8B710F1A3C9D00F"
-                    {
-                    "Name" = "8:BL.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:BL.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_D134435913EE4AAEA35A902A4C096143"
@@ -490,7 +490,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:Kütüphane Otomasyonu App Installer"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:_D69BA44E19D14AED9CE9C9DBA898D28A"
+        "ARPPRODUCTICON" = "8:_2CE4617CBAB14180BFAD88B37631CFCB"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -604,7 +604,7 @@
             "Target" = "8:_904205E5E6744762B83C37ABB0720AF6"
             "Folder" = "8:_9584125538584BEDAA0FA5F22E098842"
             "WorkingFolder" = "8:_D134435913EE4AAEA35A902A4C096143"
-            "Icon" = "8:_D69BA44E19D14AED9CE9C9DBA898D28A"
+            "Icon" = "8:_2CE4617CBAB14180BFAD88B37631CFCB"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_68902D04A9D542B68AA00D33581183A2"
@@ -618,7 +618,7 @@
             "Target" = "8:_904205E5E6744762B83C37ABB0720AF6"
             "Folder" = "8:_F6319C4A7D5143DAB46F0870128D962A"
             "WorkingFolder" = "8:_D134435913EE4AAEA35A902A4C096143"
-            "Icon" = "8:_D69BA44E19D14AED9CE9C9DBA898D28A"
+            "Icon" = "8:_2CE4617CBAB14180BFAD88B37631CFCB"
             "Feature" = "8:"
             }
         }
